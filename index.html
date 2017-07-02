@@ -11,15 +11,15 @@
 			<div id="dashboard">
 				<div id="profile-summary">
 					<div class="content">
-						<img class='avatar' src='img/alagoon.jpg' />
-						<p>Your Name Here</p>
+						<img class='avatar' src='luom.jpg' />
+						<p>Con Hạnh Voi</p>
 					</div>
 				</div>
 				<div id="tweet-content">
 
 					<!-- STEP 2: When the user clicks on the textarea, the textarea should double in size and the character count and Tweet buttons should be revealed. -->
 					<!-- HINT: jQuery ".on" eventHandler -->
-					<textarea class="tweet-compose" placeholder="Compose new Tweet..."/></textarea>
+					<textarea maxlength = "140" class="tweet-compose" placeholder="Compose new Tweet..."/></textarea>
 
 					<!-- STEP 1: Initially, the Tweet button and the character count button below should be hidden. -->
 					<!-- HINT: Use CSS -->
@@ -33,8 +33,8 @@
 						<!-- HINT: javascript length method -->
 						<button class="button" id="tweet-submit">Tweet</button>
 					</div>
-				</div>
-			</div>
+				</div> 
+			</div> 
 			<div id="main">
 				<h2>Tweets</h2>
 				<div id="stream">
@@ -178,5 +178,7 @@
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+		<script src="./js/jquery-2.0.3.min.js"></script>
+		<script src="./animation.js"></script>
 	</body>
 </html>
